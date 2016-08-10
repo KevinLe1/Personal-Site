@@ -1,0 +1,220 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+body{
+	background:#f0f0f0;
+	font-family: Raleway, sans-serif;
+	color:#555;
+	margin:0;
+}
+h1{
+	color:#555;
+	font-family: Raleway, sans-serif;
+	text-align: center;
+	font-size: 300%;
+	font-weight:bold;
+	line-height:2;
+}
+h2{
+	color:#555;
+	font-family: Raleway, sans-serif;
+	font-size: 150%;
+
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 1% 15%;
+}
+h3{
+	color:#555;
+	font-family: Raleway, sans-serif;
+	font-size:200%;
+	font-weight:bold;
+	line-height:1;
+}
+p{
+	color:#555;
+	font-family: Raleway, sans-serif;
+	font-size:20px;
+	line-height: 150%;
+	padding: 1% 15%;
+}
+header{
+	background:#405580;
+	width:100%;
+	height:85px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	opacity:0.50;
+}
+footer{
+	background:#405580;
+	width:100%;
+	height:50px;
+	opacity: 0.80;
+	top:0px;
+	left:0;
+	padding-top: 2%;
+}
+
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+	padding-top: 10px;
+}
+p a{
+	color: #406680;
+	font-weight: bold;
+	font-size: 110%;
+}
+a{
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration: underline;
+}
+nav {
+	float: right;
+	padding: 25px 20px 20px 0;
+}
+ul{
+	list-style:none;
+}
+nav ul li{
+	float:left;
+	display: inline-block;
+	padding: 10px;
+}
+.img-container{
+	position: relative;
+	top:0;
+	left:0;
+	z-index:-1;
+	overflow: hidden;
+	width:100%;
+	height:1000px;
+}
+
+
+.section-header{
+	background:#405580;
+	width:100%;
+	height:90px;
+	position:relative;
+	top:0;
+	left:0;
+	opacity:0.90;
+}
+.contact p{
+	color: white;
+	text-align: center;
+	opacity: 0.90;
+	padding:0;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width: 80%;
+	box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+	padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.vid-container {
+	text-align:center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.center{
+	position: absolute;
+	left:25%;
+	width:50%;
+	top:33%;
+	margin-top:-33px;
+	text-align:center;
+	z-index:100;
+}
+.center h1{
+	font-size: 500%;
+	color: #f0f0f0;
+}
+.center h2{
+	color:#f0f0f0;
+	text-align: center;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+}
+#section-divider{
+	margin:auto;
+	width:70%;
+	background: #e6b800;
+	padding:5px;
+	border-radius:10px;
+	opacity:0.70;
+
+}
+
+/*.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.grid a{
+	display: inline-block;
+	margin-bottom:8px;
+	width: calc(50%-4px);
+	text-decoration: none;
+	color: black;
+}
+.grid body{
+	width: 80%;
+	margin:30px auto;
+	background:blue;
+}
+.grid img{
+	border:none;
+	max-width:100%;
+	height:auto;
+	display:block;
+	background:#ccc;
+	transition: transform .2s ease-in-out;
+}
+.figure{
+	margin:0;
+	overflow:hidden;
+}
+.figcaption{
+	margin-top:15px;
+}
+@media screen and (min-width:50em){
+	.grid a{
+		width: calc(25% - 6px);
+	}
+}
+.grid a:hover img{
+	transform: scale(1.15);
+}*/
