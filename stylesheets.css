@@ -10,6 +10,7 @@ body{
 	font-family: Raleway, sans-serif;
 	color:#555;
 	margin:0;
+	-webkit-text-size-adjust:100%;
 }
 h1{
 	color:#555;
