@@ -8,17 +8,29 @@
 <title> Kevin Le </title>
 
 <link rel = "stylesheet" type = "text/css" href = "stylesheets.css" media = "screen">
+<link rel = "stylesheet" type = "text/css" href = "load.css" media = "screen">
+
+
 <script src = "jquery-3.1.0.min.js"></script>
 <script type = "text/javascript" src = "smoothscroll.js"></script>
+<script tyle = "text/javascript" src = "loading.js"></script>
+
 </head>
 
 <body>
+<div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
 	<div id = "home" class = "img-container">
-		<img src = "https://idealphotography.biz/wp-content/uploads/2016/06/Awesome-Cityscape-Photography-Wallpaper-For-Image-Wallpapers-with-Cityscape-Photography-Wallpaper-Download-HD-Wallpaper.jpg" class = 'bg' alt = "background">
+		<img src = "http://wallpaper-gallery.net/images/new-york-hd-wallpaper/new-york-hd-wallpaper-7.jpg" class = 'bg' alt = "background">
 		<div class = "center">
 
 		<h1>Kevin Le</h1> 
-		<h3>Columbia University Engineering, Class of 2020</h3>
+		<h3>Project Portfolio</h3>
 
 		</div>
 	</div>
@@ -29,13 +41,15 @@
 			<li><a href = "#home" class = "current smoothScroll">Home</a></li>
 			<li><a href = "#about" class = "smoothScroll">About</a></li>
 			<li><a href = "#projects" class = "smoothScroll">Projects</a></li>
+			<li><a href = "#teams" class = "smoothScroll">Teams</a></li>
+			<li><a href = "Kevin%20Le%20_%20Resume.pdf" class = "smoothScroll">CV</a></li>
 		</ul>
 	</nav>
 </header>
-<div class = "arrow"></div>
+
 <div class = "section-header" id = "about"></div>
 <h1>About </h1>
-	<p> I am a freshman at Columbia University in the Fu Foundation School of Engineering and Applied Sciences (SEAS). Ever since I first got involved with science and engineering back on my high school robotics team, I have been in love with the idea of being able to build something up from scratch. Whether it be through STEM, business, or music, I hope to create things that will have a lasting impact. Feel free to view some of my projects below!
+	<p> I am a student at Columbia University studying mechanical engineering. Whether it be through STEM, business, or music, I hope to create things that will have a lasting impact. Feel free to view some of my teams and projects below!
 	<br><br>
 	<strong>Skills</strong>: Java, C++, HTML/CSS, Javascript, Arduino, Linux, CAD (Solidworks)/3D Printing
 	<br><br>
@@ -49,25 +63,25 @@
 	<br>
 	<p id="section-divider"></p>
 	<br>
-	<h2> LHS MakerSpace ("OpenSource") </h2>
-		<p> At my former high school (Lexington High School, Lexington, MA), there were almost no engineering supports for students at the school besides the student-run robotics team, which had its own limitations. In response, I established an experimental MakerSpace called "OpenSource" with minor funding from the Lexington Education Foundation (LEF) for students to create whatever, whenever. Since then, it has expanded into the largest engineering education support at LHS with its own space and computer lab along with use both in and out of school by students and faculty. </p>
-
-		<p><iframe width="100%" height="400" src="https://www.youtube.com/embed/AQy_kkfx2cQ" frameborder="0" allowfullscreen></iframe></p>
-
-	<p id="section-divider"></p><br>
-
-	<h2> Elementary Engineering Education Reform </h2>
-		<p> Similar to my high school, the six elementary schools in my town also lacked engineering supports. After running robotics classes for young students independently for over a year, it was clear that there was a demand. I led an initiative to get the school system to invest in new engineering supports and designed original engineering curricula and teacher training materials. After a successful pilot year, the curriculum is becoming fully integrated across the Lexington, MA school system. 
-		<br><br>
-		<a href = "Elementary%20Robotics%20Full%20Six-Session%20Lesson%20Plan%20(1).pdf">View the original curriculum here. </a></p>
-
-	<p id="section-divider"></p><br>
 
 	<h2> FIRST Tech Challenge Robotics </h2>
 		<p> Captain of 2 Bits and a Byte (FTC 4029), the LHS robotics team from 2014-2016. During both years of my captainship the team qualified to the FTC World Championship and made it to World Division Semi-Finals in the 2015-2016 season. Over a dozen various awards won from 2014-2016, along with a quadrupling of team funds. </p>
 		
 		<p><iframe width = "100%" height = "400" src="https://www.youtube.com/embed/Lt0n4OjAdJY" frameborder = "0" allowfullscreen></iframe></p>
-	
+
+	<p id="section-divider"></p><br>
+
+	<h2> Elementary Engineering Education Reform </h2>
+		<p> Led an initiative to get the school system to invest in new engineering supports and designed original engineering curricula and teacher training materials. After a successful pilot year, the curriculum is becoming fully integrated across the Lexington, MA school system. 
+		<br><br>
+		<a href = "Elementary%20Robotics%20Full%20Six-Session%20Lesson%20Plan%20(1).pdf">View the original curriculum here. </a></p>
+
+	<p id="section-divider"></p><br>
+
+	<h2> LHS MakerSpace ("OpenSource") </h2>
+		<p> Established an experimental MakerSpace called "OpenSource" with minor funding from the Lexington Education Foundation (LEF) for students to create whatever, whenever.  </p>
+
+		<p><iframe width="100%" height="400" src="https://www.youtube.com/embed/AQy_kkfx2cQ" frameborder="0" allowfullscreen></iframe></p>
 	<p id="section-divider"></p><br>
 
 	<h2> Forsyth Independent Research </h2>
@@ -78,20 +92,61 @@
 	<p id="section-divider"></p><br>
 	
 	<h2> LexHack </h2>
-		<p> Co-founded and led an annual 150+ student high school hackathon in the Greater Boston Area. Beginning in 2014, it was the first high school hackathon in Massachusetts run exclusively by high school students. Learn more at: 
+		<p> Co-founded and led an annual 150+ student high school hackathon in the Greater Boston Area. Learn more at: 
 		<a href = "http://www.lexhack.org"> www.lexhack.org </a>
 		</p>
 
 		<p> <iframe width="100%" height="400" src="https://www.youtube.com/embed/Xhk4bLECBHg" frameborder="0" allowfullscreen></iframe> </p>
 	
-	<p id="section-divider"></p><br>
 	
-	<h2> Music </h2>
+	
+<!--	<h2> Music </h2>
 		<p> Since I was a kid, I have been playing piano. After receiving numerous accolades through the National Piano Guild, I began writing music independently when I was 14. A hobby of mine, it is something that has always made me appreciate the way art affects our world. Soundcloud:  </p>
 		
 		<p><iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/155683364&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></p>
-		
+-->
 
+<div class = "section-header" id = "teams"></div>
+	
+<h1>Teams</h1>
+	
+	<br><p id="section-divider"></p><br>
+	
+	<h2>Barnard-Columbia Design for America (DFA)</h2>
+		<p>DFA is a multidisciplinary group focused on human-centered design. I am on a team exploring solar energy solutions for apartment buildings in Harlem by developing portable, modular, and affordable solar power units to promote a transition to solar power purchase agreements.
+		<br><br><a href="http://bcdfa.com">www.bcdfa.com</a>
+		</p>
+	
+	<br><p id="section-divider"></p><br>
+
+	<h2>Columbia Space Initiative (CSI)</h2>
+		<p>Columbia's undergraduate aerospace club; I am on the Micro-G NeXT team and Rocket team. In Micro-G NeXT, I am part of a small team developing a novel subsurface sampling device for astronaut use on asteroids. Our design was approved by NASA and we are currently in a manufacturing phase. In the Rocket team, we are developing a class-K rocket with experimental engines, for which I am working on the body.
+		<br><br><a href="https://columbiaspace.org/">www.columbiaspace.org</a></p>
+
+	<br><p id="section-divider"></p><br>
+
+	<h2>Engineers Without Borders - Columbia Chapter</h2>
+		<p>Engineers Without Borders designs and builds infrastructure for developing communities. I am on the water team of the Morocco division. My focus is on designing a water filtration and storage system for Ait Bayoud, a village in Morocco. Physically building it will occur in the summer.
+		<br><br><a href="http://morocco.cuewb.org/">www.morocco.cuewb.org</a></p>
+
+
+	<br><p id ="section-divider"></p><br>
+
+	<h2>Columbia Biomedical Engineering Society (BMES)</h2>
+		<p>BMES works to organize social and professional events for students interested in biotech. Within BMES, I am a board member involved with the group's Student Life Committee. I am also one of the primary organizers for an upcoming medical-themed 24-hour hackathon called BioHacks NYC, which will be the first of its kind at Columbia.
+		<br><br><a href="http://biohacks.nyc/">www.biohacks.nyc</a>
+		<br><a href="http://orion.bme.columbia.edu/bmes/">orion.bme.columbia.edu</a> </p>
+
+	<br><p id="section-divider"></p><br>
+
+	<h2>Columbia University Robotics Club (CURC)</h2>
+		<p>Columbia's undergraduate robotics club; I am on the autonomous drone team working on programming a drone which can map out a room.
+		<br><br><a href="http://www.columbia.edu/cu/roboticsclub/projects/index.html">http://www.columbia.edu/cu/roboticsclub/</a></p>
+
+	<br><p id="section-divider"></p><br>
+
+	<h2>CU Records</h2>
+		<p>CU Records is the student-run recording studio at Columbia, new this year. I am currently training to be a studio engineer. Responsibilities include working with sound equipment and recording artists.</p>
 <footer>
 <div class = "contact">
 <p> Made with love by Kevin Le </p>
