@@ -204,7 +204,7 @@ nav ul li{
 			font-size: 45px;
 		}
 		.img-container{
-			height:680px
+			height:670px
 		}
 		nav ul li{
 			font-size:100%;
@@ -224,6 +224,14 @@ nav ul li{
 		#section-divider{
 			width: 90%;
 		}
+		h2{
+			padding: 1% 5%;
+		}
+		.center{
+			left: 10%;
+			width: 65;
+		}
+		
 }
 
 
