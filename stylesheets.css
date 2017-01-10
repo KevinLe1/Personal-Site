@@ -3,6 +3,7 @@
 @import url('http://fonts.googleapis.com/css?family=Montserrat');
 @import url('http://fonts.googleapis.com/css?family=Roboto');
 @import url('http://fonts.googleapis.com/css?family=Open Sans');
+@import url('http://fonts.googleapis.com/css?family=Nunito');
 
 *{
 	margin:0;
@@ -11,20 +12,20 @@
 }
 body{
 
-	font-family: Raleway, sans-serif;
+	font-family: Nunito, sans-serif;
 	color:#555;
 	margin:0;
 }
 h1{
 	color:#555;
-	font-family: Raleway, sans-serif;
+	font-family: Nunito, sans-serif;
 	text-align: center;
 	font-size: 250%;
 	line-height:2;
 }
 h2{
 	color:#555;
-	font-family: Raleway, sans-serif;
+	font-family: Nunito, sans-serif;
 
 
 	font-weight: bold;
@@ -33,7 +34,7 @@ h2{
 }
 h3{
 	color: white;
-	font-family: Raleway, sans-serif;
+	font-family: Nunito, sans-serif;
 	text-align: center;
 	font-size:200%;
 	line-height:1;
@@ -48,7 +49,7 @@ h3{
 }
 p{
 	color:#555;
-	font-family: Raleway, sans-serif;
+	font-family: Nunito, sans-serif;
 	font-size: 125%;
 	line-height: 150%;
 	padding: 1% 15%;
