@@ -39,13 +39,7 @@ h3{
 	line-height:1;
 }
 
-@media only screen
-	and (min-device-width: 375px) 
-	and (max-device-width: 667px){
-		h3{
-			font-size:30px;
-		}
-}
+
 p{
 	color:#555;
 	font-family: Raleway, sans-serif;
@@ -171,6 +165,19 @@ nav ul li{
 .center h1{
 	font-size: 500%;
 	color: #f0f0f0;
+}
+@media only screen
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px){
+		h3{
+			font-size:30px;
+		}
+		header{
+			height: 100px;
+		}
+		.center h1 {
+			font-size: 50px;
+		}
 }
 .center h2{
 	color:#f0f0f0;
