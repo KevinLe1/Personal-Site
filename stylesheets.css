@@ -241,7 +241,7 @@ box-shadow: 5px 5px #ccc;
 }
 
 @media only screen
-	and (min-device-width: 375px) 
+	and (min-device-width: 300px) 
 	and (max-device-width: 667px){
 		h3{
 			font-size:30px;
