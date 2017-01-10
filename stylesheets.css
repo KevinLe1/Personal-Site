@@ -213,7 +213,10 @@ nav ul li{
 			font-size:100%;
 		}
 		h2{
-			font-size:100%;
+			font-size:30px;
+		}
+		iframe{
+			height: 300px;
 		}
 }
 
