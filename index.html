@@ -14,6 +14,8 @@
 <script src = "jquery-3.1.0.min.js"></script>
 <script type = "text/javascript" src = "smoothscroll.js"></script>
 <script tyle = "text/javascript" src = "loading.js"></script>
+<script tyle = "text/javascript" src ="typed.min.js"></script>
+<script tyle = "text/javascript" src="typewriter.js"></script>
 
 </head>
 
@@ -28,10 +30,8 @@
 	<div id = "home" class = "img-container">
 		<img src = "new-york-hd-wallpaper-7.jpg" class = 'bg' alt = "background">
 		<div class = "center">
-
-		<h1>Kevin Le</h1> 
-		<h3>Project Portfolio</h3>
-
+			<h1>Kevin Le</h1> 
+			<div id="typetext"></div>
 		</div>
 	</div>
 
@@ -51,7 +51,7 @@
 <h1>About </h1>
 	<p> I am a student at Columbia University studying mechanical engineering. Whether it be through STEM, business, or music, I hope to create things that will have a lasting impact. Feel free to view some of my teams and projects below!
 	<br><br>
-	<strong>Skills</strong>: Solidworks, Creo, AutoCAD, Circuitry, Java, HTML/CSS, Javascript, C++, Python, Adobe Suite
+	<strong>Skills</strong>: Java, C++, HTML/CSS, Javascript, Arduino, Linux, CAD (Solidworks)/3D Printing
 	<br><br>
 	<a href = "Kevin%20Le%20_%20Resume.pdf">View my resume here.</a>
 	<br><br>
@@ -67,38 +67,44 @@
 	<h2> FIRST Tech Challenge Robotics </h2>
 		<p> Captain of 2 Bits and a Byte (FTC 4029), the LHS robotics team from 2014-2016. During both years of my captainship the team qualified to the FTC World Championship and made it to World Division Semi-Finals in the 2015-2016 season. Over a dozen various awards won from 2014-2016, along with a quadrupling of team funds. </p>
 		
-		<p><iframe width = "100%" height = "400" src="https://www.youtube.com/embed/Lt0n4OjAdJY" frameborder = "0" allowfullscreen></iframe></p>
+		<p><iframe id="vidshadow" width = "100%" height = "400" src="https://www.youtube.com/embed/Lt0n4OjAdJY" frameborder = "0" allowfullscreen></iframe></p>
 
-	<p id="section-divider"></p><br>
+	<br><p id="section-divider"></p><br>
 
 	<h2> Elementary Engineering Education Reform </h2>
 		<p> Led an initiative to get the school system to invest in new engineering supports and designed original engineering curricula and teacher training materials. After a successful pilot year, the curriculum is becoming fully integrated across the Lexington, MA school system. 
 		<br><br>
 		<a href = "Elementary%20Robotics%20Full%20Six-Session%20Lesson%20Plan%20(1).pdf">View the original curriculum here. </a></p>
 
-	<p id="section-divider"></p><br>
+	<br><p id="section-divider"></p><br>
 
 	<h2> LHS MakerSpace ("OpenSource") </h2>
 		<p> Established an experimental MakerSpace called "OpenSource" with minor funding from the Lexington Education Foundation (LEF) for students to create whatever, whenever.  </p>
 
-		<p><iframe width="100%" height="400" src="https://www.youtube.com/embed/AQy_kkfx2cQ" frameborder="0" allowfullscreen></iframe></p>
-	<p id="section-divider"></p><br>
+		<p><iframe id ="vidshadow" width="100%" height="400" src="https://www.youtube.com/embed/AQy_kkfx2cQ" frameborder="0" allowfullscreen></iframe></p>
+	<br><p id="section-divider"></p><br>
 
 	<h2> Forsyth Independent Research </h2>
 		<p> In Fall of 2014, a friend and I presented an original research proposal concerning the interactions between <em>M. smegmtatis</em> (closely related to <em> M. tuberculosis </em>) and <em>C. elegans </em> to the <a href = "https://www.forsyth.org/immunology-and-infectious-diseases">Forsyth Institute's Immunology Department</a>. The following summer, we were invited to conduct our research at the facility with full funding. 
 		<br><br>
 		<a href = "research-report-1.pdf"> View our paper here. </a> </p>
 	
-	<p id="section-divider"></p><br>
+	<br><p id="section-divider"></p><br>
 	
 	<h2> LexHack </h2>
 		<p> Co-founded and led an annual 150+ student high school hackathon in the Greater Boston Area. Learn more at: 
 		<a href = "http://www.lexhack.org"> www.lexhack.org </a>
 		</p>
 
-		<p> <iframe width="100%" height="400" src="https://www.youtube.com/embed/Xhk4bLECBHg" frameborder="0" allowfullscreen></iframe> </p>
+		<p> <iframe id="vidshadow" width="100%" height="400" src="https://www.youtube.com/embed/Xhk4bLECBHg" frameborder="0" allowfullscreen></iframe> </p>
 	
-	
+	<br><p id="section-divider"></p><br>
+
+	<h2>Music Composition</h2>
+		<p>Since I was a kid, I have been playing piano. After receiving numerous accolades through the National Piano Guild, I began writing music indepently at the age of 14. My music has been recognized internationally and I've had the privliege to perform as far as Vienna. A hobby of mine, it is something that has always made me appreciate the way art affects individuals and society.
+		<br><br>
+		<a href="Fade-3.pdf">A sample of my work</a></p>
+		<br>
 	
 <!--	<h2> Music </h2>
 		<p> Since I was a kid, I have been playing piano. After receiving numerous accolades through the National Piano Guild, I began writing music independently when I was 14. A hobby of mine, it is something that has always made me appreciate the way art affects our world. Soundcloud:  </p>
@@ -141,12 +147,13 @@
 
 	<h2>Columbia University Robotics Club (CURC)</h2>
 		<p>Columbia's undergraduate robotics club; I am on the autonomous drone team working on programming a drone which can map out a room.
-		<br><br><a href="http://www.columbia.edu/cu/roboticsclub/projects/index.html">Columbia Robotics Site</a></p>
+		<br><br><a href="http://www.columbia.edu/cu/roboticsclub/projects/index.html">http://www.columbia.edu/cu/roboticsclub/</a></p>
 
 	<br><p id="section-divider"></p><br>
 
 	<h2>CU Records</h2>
 		<p>CU Records is the student-run recording studio at Columbia, new this year. I am currently training to be a studio engineer. Responsibilities include working with sound equipment and recording artists.</p>
+	<br><br>
 <footer>
 <div class = "contact">
 <p> Made with love by Kevin Le </p>
