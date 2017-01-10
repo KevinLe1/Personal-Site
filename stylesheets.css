@@ -218,6 +218,12 @@ nav ul li{
 		iframe{
 			height: 300px;
 		}
+		p{
+			padding: 1% 5%;
+		}
+		#section-divider{
+			width: 90%;
+		}
 }
 
 
