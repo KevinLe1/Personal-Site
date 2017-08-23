@@ -4,7 +4,7 @@ $(document).ready(function() {
       strings: ["Operations Research Student",
                 "Columbia University Undergraduate",
                 "Programmer and Builder",
-                "Music Composer"],
+                "Award-Winning Composer"],
       typeSpeed: 80,
       backDelay: 1200,
       loop: true
