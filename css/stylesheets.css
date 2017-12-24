@@ -171,7 +171,7 @@ img.resize2{
     display: block;
 }
 
-.dropdown-content a:hover {text-decoration: underline;}
+.dropdown-content a:hover{text-decoration: underline;}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -315,6 +315,15 @@ box-shadow: 5px 5px #ccc;
 			left: 15%;
 			width: 70%;
 			top:35%;
+		}
+		.dropdown-content a:active{text-decoration: underline;}
+
+		.dropdown:active .dropdown-content {
+		    display: block;
+		}
+
+		.dropdown:active .dropbtn {
+		    text-decoration: underline;
 		}
 		
 }
